@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.primary {
+    font-size: 10px;
+    padding: 5px 9px;
+    color: white;
+    background-color: rgb(89, 89, 223);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.imgrow ,.gallery{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.updown{
+    width: 12px;
+}
+
+.buttonarrow{
+    border: none;
+    background: transparent;
+    margin: -6px;
+}
+.update,
+.delete {
+    border: none;
+    background: transparent;
+}
+.galleryouter{
+    display:flex;
+}
+.galleryinner{
+    display:flex;
+    flex-direction:row;
+}
+.deleteimage{
+    border:none;
+    margin-right:2px;
+    padding:2px 8px;
+    margin-bottom:2px;
+    background: transparent;
+}
+#alert{
+    display: none;
+}
+.cross{
+    width: 10px;
+}
+
+#myInput{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#myInput:focus{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid black;
+}
